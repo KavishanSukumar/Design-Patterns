@@ -14,7 +14,7 @@ I completed the "Design Patterns" course offered by the University of Alberta on
 The course provided a comprehensive understanding of various design patterns used in software engineering. It covered creational, structural, and behavioral design patterns. Throughout the course, I learned about:
 
 - Singleton
-
+- Factory method pattern
 ## Implementation in Java
 
 After completing the course, I implemented the design patterns using Java. The implementations are available in my repository.
