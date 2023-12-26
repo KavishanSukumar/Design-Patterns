@@ -15,6 +15,10 @@ The course provided a comprehensive understanding of various design patterns use
 
 - Singleton
 - Factory method pattern
+- Facade pattern
+- Adapter pattern
+- Composite Pattern
+- Proxy Pattern
 ## Implementation in Java
 
-After completing the course, I implemented the design patterns using Java. The implementations are available in my repository.
+While completing the course, I implemented the design patterns using Java. The implementations are available in my repository.
