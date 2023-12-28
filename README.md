@@ -13,12 +13,21 @@ I completed the "Design Patterns" course offered by the University of Alberta on
 
 The course provided a comprehensive understanding of various design patterns used in software engineering. It covered creational, structural, and behavioral design patterns. Throughout the course, I learned about:
 
+####  Creational design patterns
 - Singleton
 - Factory method pattern
+####  Structural design patterns
 - Facade pattern
 - Adapter pattern
 - Composite Pattern
 - Proxy Pattern
+####  Behavioral design patterns
+- Template Method Pattern
+- Chain of Responsibility Pattern
+- State Pattern
+- Command Pattern
+- Observer Pattern
+
 ## Implementation in Java
 
 While completing the course, I implemented the design patterns using Java. The implementations are available in my repository.
