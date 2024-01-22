@@ -9,10 +9,11 @@ I completed the "Design Patterns" course offered by the University of Alberta on
 The course provided a comprehensive understanding of various design patterns used in software engineering. It covered creational, structural, and behavioral design patterns. Throughout the course, I learned about:
 ####  Creational design patterns
 - Singleton
-- Factory method pattern
+- Factory method Pattern
+- Builder Pattern
 ####  Structural design patterns
-- Facade pattern
-- Adapter pattern
+- Facade Pattern
+- Adapter Pattern
 - Composite Pattern
 - Proxy Pattern
 ####  Behavioral design patterns
