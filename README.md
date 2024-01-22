@@ -11,6 +11,7 @@ The course provided a comprehensive understanding of various design patterns use
 - Singleton
 - Factory method Pattern
 - Builder Pattern
+- Prototype Pattern
 ####  Structural design patterns
 - Facade Pattern
 - Adapter Pattern
