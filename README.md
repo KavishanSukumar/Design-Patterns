@@ -25,13 +25,15 @@ The course provided a comprehensive understanding of various design patterns use
 #### Design Principles Underlying Design Patterns(SOLID)
 - **Single-Responsibility Principle**
   - A class should have one and only one reason to change, meaning that a class should have only one job.
-- **Liskov's substitution principle**
-  - If a class, S, is a subtype of a class, B, then S can be used to replace all instances of B without changing the behaviors of a program.
 - **Open/Closed Principle**
     - Classes should be open for extension but closed for change
       - we can use inheritance in **classes** by creating subclasses which can extend the feature.
       - if the class is **abstract** we can use open close principle through Polymorphism
       - The Open/Closed Principle is used to keep the stable parts of your system separate from the varying parts. Well, you want to be able to add more features to your system. You don't want to do it at the expense of disrupting something that works. By using extension over change, you can work on the varying parts without introducing unwanted side effects into the stable parts.
+- **Liskov's substitution principle**
+  - If a class, S, is a subtype of a class, B, then S can be used to replace all instances of B without changing the behaviors of a program.
+- **Interface Segregation Principle** 
+  - The interface segregation principle states that a class should not be forced to depend on methods it does not use. This means that any classes that implement an interface should not have dummy implementations of any methods defined in the interface. Instead, you should split large interfaces into smaller generalizations.
 - **Dependency Inversion Principle**
   - The principle states that high level modules should depend on high level generalizations and not on low level details.
     - Software Dependency means degree Coupling
@@ -43,9 +45,7 @@ The course provided a comprehensive understanding of various design patterns use
         - The composing objects principle will provide a means of code reuse without the tight coupling of inheritance.
         - Allow objects to dynamically add behaviors at run time.
         - Provide your system with more flexibility.
-        - **_The biggest drawback of composition is that you must provide implementations for all behavior without the benefit of inheritance to share code. This means that you night have very similar implementations across classes. With inheritance, you don't need to provide each subclass with their own implementation of a shared behavior. The common implementation is simply accessed within the super class. Needing to provide implementations for every class means that it will take time and resources. A programmer working on providing multiple implementations of the same behaviors means you'll have one less programmer working on other features._**
-- **Interface Segregation Principle** 
-  - The interface segregation principle states that a class should not be forced to depend on methods it does not use. This means that any classes that implement an interface should not have dummy implementations of any methods defined in the interface. Instead, you should split large interfaces into smaller generalizations. 
+        - **_The biggest drawback of composition is that you must provide implementations for all behavior without the benefit of inheritance to share code. This means that you night have very similar implementations across classes. With inheritance, you don't need to provide each subclass with their own implementation of a shared behavior. The common implementation is simply accessed within the super class. Needing to provide implementations for every class means that it will take time and resources. A programmer working on providing multiple implementations of the same behaviors means you'll have one less programmer working on other features._** 
 - **Principle of Least Knowledge**
   - This principle is also realized in a rule known as The Law of Demeter. The underlying idea of this law is that classes should know about and interact with as few other classes as possible. This means that any class should only communicate with its immediate friends. These friends would be other classes that one class should only know about.
   - **Rules**
